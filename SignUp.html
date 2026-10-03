@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+<body>
+
+    <div id="header-placeholder"></div>
+
+    <div class="SignUp-Container">
+        <div class="header-signUp">
+            <div>
+                <a href="#"> <i class="fa-solid fa-house-user"></i> </a>
+            </div>
+            <h2> Join Stu-Nest </h2>
+            <P> Create Your Account and Find Your Perfect Home </P>
+        </div>
+
+        <div class="SignUp-card">
+            <div class="role">
+
+                <div class="role-box">
+                    <span class="role-icon"> <i class="fa fa-graduation-cap"></i></span>
+                    <h4>Student</h4>
+                    <small>Looking for boarding</small>
+                </div>
+
+                <div class="role-box">
+                    <span class="role-icon"><i class="fa-solid fa-briefcase"></i></span>
+                    <h4>Owner</h4>
+                    <small>List your property</small>
+                </div>
+            </div>
+
+            <form action="">
+                <table>
+                    <tr>
+                        <td>
+                            <label for="fullName">Full Name</label> <br>
+                            <div class="input-icon">
+                                <i class="fa fa-user icon"></i>
+                                <input type="text" name="fullName" id="fullName" placeholder="Enter Your Full Name">
+                            </div>
+                        </td>
+            
+                        <td>
+                            <label for="phoneNo"> Phone No </label> <br>
+                            <div class="input-icon">
+                                <i class="fa fa-phone icon"></i>
+                                <input type="tel" name="phoneNo" id="phoneNo" placeholder="Enter Your Phone No">
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <label for="emailAddress"> Email Address </label> <br>
+                            <div class="input-icon">
+                                <i class="fa fa-envelope icon"></i>
+                                <input type="email" name="emailAddress" id="emailAddress" placeholder="Enter Your Email Address">
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="password"> Password </label> <br>
+                            <div class="input-icon">
+                                <i class="fa fa-lock icon"></i>
+                                <input type="password" name="password" id="password" placeholder="Create a Password">
+                            </div>
+                        </td>
+
+                        <td>
+                            <label for="confirmPassword"> Confirm Password </label> <br>
+                            <div class="input-icon">
+                                <i class="fa fa-lock icon"></i>
+                                <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm a Password">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="password-rules">
+                    <ul>
+                        
+                        <li> <i class="fa fa-check"></i> At least 8 characters</li>
+                        <li> <i class="fa fa-check"></i> One uppercase letter</li>
+                        <li> <i class="fa fa-check"></i> One lowercase letter</li>
+                        <li> <i class="fa fa-check"></i> One number</li>
+                    </ul>
+                </div>
+
+                <div class="terms-condition">
+                    <input type="checkbox">
+                    <P> I agree to the <a href="#" > Terms of Service </a> and <a href="#"> Privacy Policy </a> </P>
+                </div>
+
+                <div class="signUp-button">
+                    <a href="#"> Create Account </a>
+                </div>
+                
+                <P class="signIn-link">
+                    Already have an account <a href="#"> Sign In </a>
+                </P>                
+            </form>
+        </div>
+    </div>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="Script.js"></script>
+    
+</body>
+</html>
