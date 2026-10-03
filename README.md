@@ -25,4 +25,4 @@
 
 ## 🛠️ Tech Stack
 
-- **HTML5 , CSS3, javascript]
+- HTML5 , CSS3, javascript
